@@ -5,6 +5,6 @@
 ## Новые
 * [Вера - Пьяные души](https://musicmd.app/repos/kaver-pro/song/viewer/main/songs/vera.pjanye.md?transpose=0)
 ## Актуальное
-* [Kaver - Fantasy](./songs/kaver.fantasy.md)
+* [Kaver - Fantasy](./songs/kaver.fantasy.md) (draft)
 ## Старое
 * [?](./?)
