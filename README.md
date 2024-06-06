@@ -1,5 +1,5 @@
 # Главное
-Используйте [musicmd.app](https://musicmd.app/repos/kaver-pro/song/viewer/master/songs/) для просмотра описания треков
+Используйте [musicmd.app](https://musicmd.app/repos/kaver-pro/song/viewer/main/README.md?transpose=0) для просмотра описания треков
 
 # Треки
 ## Новые
