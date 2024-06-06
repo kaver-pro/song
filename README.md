@@ -3,7 +3,7 @@
 
 # Треки
 ## Новые
-* [Вера - Пьяные души](./songs/vera.pjanye.md)
+* [Вера - Пьяные души](https://musicmd.app/repos/kaver-pro/song/viewer/main/songs/vera.pjanye.md?transpose=0)
 ## Актуальное
 * [Kaver - Fantasy](./songs/kaver.fantasy.md)
 ## Старое
