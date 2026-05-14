@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Songbook</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Каталог песен">
+        <div class="brand">
+          <div>
+            <p class="eyebrow">Концертный сборник</p>
+            <h1>Songbook</h1>
+          </div>
+          <span class="count">35 песен</span>
+        </div>
+
+        <label class="search">
+          <span>Поиск</span>
+          <input type="search" value="Земфира" aria-label="Поиск песни">
+        </label>
+
+        <nav class="song-list" aria-label="Песни">
+          <a href="#" class="song-card active">
+            <span class="artist">Земфира</span>
+            <strong>Аривидерчи</strong>
+            <small>Dm • 3 секции</small>
+          </a>
+          <a href="#" class="song-card">
+            <span class="artist">Земфира</span>
+            <strong>Я искала тебя</strong>
+            <small>Dm • припев x3</small>
+          </a>
+          <a href="#" class="song-card">
+            <span class="artist">Звери</span>
+            <strong>Южная ночь</strong>
+            <small>Am • intro</small>
+          </a>
+          <a href="#" class="song-card">
+            <span class="artist">Сплин</span>
+            <strong>Выхода нет</strong>
+            <small>Em • популярное</small>
+          </a>
+          <a href="#" class="song-card">
+            <span class="artist">No Doubt</span>
+            <strong>Don't Speak</strong>
+            <small>Bm • solo</small>
+          </a>
+        </nav>
+      </aside>
+
+      <main class="viewer">
+        <header class="song-header">
+          <div>
+            <p class="eyebrow">Земфира</p>
+            <h2>Аривидерчи</h2>
+            <p class="meta">Тональность Dm · без каподастра · источник: На концерт 11 Мая.docx</p>
+          </div>
+
+          <div class="controls" aria-label="Управление песней">
+            <button type="button">−</button>
+            <span>0</span>
+            <button type="button">+</button>
+            <button type="button" class="wide">Автоскролл</button>
+          </div>
+        </header>
+
+        <section class="song-toolbar" aria-label="Настройки просмотра">
+          <button type="button" class="selected">−1</button>
+          <button type="button">+1</button>
+          <button type="button">Автоскролл</button>
+          <button type="button">Печать</button>
+          <div class="font-control">
+            <span>Aa</span>
+            <input type="range" min="16" max="28" value="21" aria-label="Размер шрифта">
+          </div>
+        </section>
+
+        <div class="content-grid">
+          <article class="song-content">
+            <section class="song-section">
+              <h3>Куплет 1 <span>как в No Doubt</span></h3>
+              <p class="line">
+                <span class="word"><b>Dm</b>Вороны</span>
+                <span class="word"><b>E</b>москвички меня разбудили,</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>Dm</b>Промокшие спички</span>
+                <span class="word"><b>E</b>надежду убили.</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>Am</b>Курить,</span>
+                <span class="word"><b>F</b>значит буду</span>
+                <span class="word"><b>Dm</b>дольше жить,</span>
+                <span class="word"><b>E</b>значит будем</span>
+              </p>
+            </section>
+
+            <section class="song-section chorus">
+              <h3>Припев</h3>
+              <p class="line">
+                <span class="word"><b>F</b>Корабли</span>
+                <span class="word"><b>G</b>в моей гавани</span>
+                <span class="word"><b>C</b>жечь,</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>E</b>На рубли</span>
+                <span class="word"><b>F</b>поменяю</span>
+                <span class="word"><b>G</b>билет,</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>C</b>Отрастить бы</span>
+                <span class="word"><b>E</b>до самых до плеч</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>Dm</b>Я никогда не вернусь</span>
+                <span class="word"><b>Fm</b>домой.</span>
+              </p>
+            </section>
+
+            <section class="song-section">
+              <h3>Куплет 2</h3>
+              <p class="line">
+                <span class="word"><b>Dm</b>С тобой мне так интересно,</span>
+                <span class="word"><b>E</b>а с ними не очень.</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>Dm</b>Я вижу что тесно,</span>
+                <span class="word"><b>E</b>я помню что прочно</span>
+              </p>
+              <p class="line">
+                <span class="word"><b>Am</b>Дарю.</span>
+                <span class="word"><b>F</b>Время, видишь</span>
+                <span class="word"><b>Dm</b>я горю,</span>
+                <span class="word"><b>E</b>кто-то спутал</span>
+              </p>
+            </section>
+          </article>
+
+          <aside class="chord-panel" aria-label="Аккорды песни">
+            <h3>Аккорды</h3>
+            <div class="chord-list">
+              <button type="button">Dm</button>
+              <button type="button">E</button>
+              <button type="button">Am</button>
+              <button type="button">F</button>
+              <button type="button">G</button>
+              <button type="button">C</button>
+              <button type="button">Fm</button>
+            </div>
+            <p>Клик по аккорду позже откроет аппликатуру.</p>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
